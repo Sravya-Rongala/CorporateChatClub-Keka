@@ -5,9 +5,15 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporateChatClub", "CorporateChatClub\CorporateChatClub.csproj", "{E588D414-1E9E-4218-8780-3A23953195A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorporateChatClub.Domain", "CorporateChatClub.Domain\CorporateChatClub.Domain.csproj", "{930B04D6-1E19-4BA1-A16C-C25857A8502C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporateChatClub.Domain", "CorporateChatClub.Domain\CorporateChatClub.Domain.csproj", "{930B04D6-1E19-4BA1-A16C-C25857A8502C}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CorporateChatClub.DB", "CorporateChatClub.DB\CorporateChatClub.DB.sqlproj", "{EDA502A6-0284-4CB7-AF4E-14254D750230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorporateChatClub.Infrastructure", "CorporateChatClub.Infrastructure\CorporateChatClub.Infrastructure.csproj", "{A8C51D48-BCFA-4D73-B801-AD1FA1DDBEC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorporateChatClub.Service", "CorporateChatClub.Service\CorporateChatClub.Service.csproj", "{166ECE40-767E-4041-9AFD-777F8BF1BA9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorporateChatClub.Application", "CorporateChatClub.Application\CorporateChatClub.Application.csproj", "{B9ADFFF8-BEC8-44A3-B6BD-D43AE3A112FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +25,28 @@ Global
 		{E588D414-1E9E-4218-8780-3A23953195A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E588D414-1E9E-4218-8780-3A23953195A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E588D414-1E9E-4218-8780-3A23953195A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930B04D6-1E19-4BA1-A16C-C25857A8502C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930B04D6-1E19-4BA1-A16C-C25857A8502C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930B04D6-1E19-4BA1-A16C-C25857A8502C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930B04D6-1E19-4BA1-A16C-C25857A8502C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A8C51D48-BCFA-4D73-B801-AD1FA1DDBEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C51D48-BCFA-4D73-B801-AD1FA1DDBEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C51D48-BCFA-4D73-B801-AD1FA1DDBEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C51D48-BCFA-4D73-B801-AD1FA1DDBEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166ECE40-767E-4041-9AFD-777F8BF1BA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166ECE40-767E-4041-9AFD-777F8BF1BA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166ECE40-767E-4041-9AFD-777F8BF1BA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166ECE40-767E-4041-9AFD-777F8BF1BA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9ADFFF8-BEC8-44A3-B6BD-D43AE3A112FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9ADFFF8-BEC8-44A3-B6BD-D43AE3A112FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9ADFFF8-BEC8-44A3-B6BD-D43AE3A112FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9ADFFF8-BEC8-44A3-B6BD-D43AE3A112FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
