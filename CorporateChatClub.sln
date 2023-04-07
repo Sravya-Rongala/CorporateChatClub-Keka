@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorporateChatClub", "CorporateChatClub\CorporateChatClub.csproj", "{E588D414-1E9E-4218-8780-3A23953195A3}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CorporateChatClub.DB", "CorporateChatClub.DB\CorporateChatClub.DB.sqlproj", "{EDA502A6-0284-4CB7-AF4E-14254D750230}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{E588D414-1E9E-4218-8780-3A23953195A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E588D414-1E9E-4218-8780-3A23953195A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E588D414-1E9E-4218-8780-3A23953195A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA502A6-0284-4CB7-AF4E-14254D750230}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
